@@ -1,0 +1,19 @@
+# Additional dependencies for RL switching module
+# Install on top of existing DMS-Raptor environment:
+#   pip install -r requirements_rl.txt
+
+# Required
+h5py>=3.7.0              # HDF5 storage for collected data
+numpy>=1.23.0            # Already in base env
+opencv-python>=4.7.0     # Already in base env
+
+# Required for DQN (Phase 14)
+# Install PyTorch matching your CUDA version:
+#   CPU only:  pip install torch
+#   CUDA 11.8: pip install torch --index-url https://download.pytorch.org/whl/cu118
+#   CUDA 12.1: pip install torch --index-url https://download.pytorch.org/whl/cu121
+torch>=2.0.0
+
+# Already in base env (listed for completeness)
+# ultralytics             # YOLO models
+# matplotlib              # Plotting (optional, for figure generation)

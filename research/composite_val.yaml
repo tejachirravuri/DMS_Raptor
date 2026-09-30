@@ -1,0 +1,8 @@
+# Composite insulator dataset — fixed paths for validation
+path: C:/Users/tejac/Master_Thesis/Datasets/powerline_insulators/composite_MPID_dataset
+
+train: images/train
+val: images/val
+
+nc: 1
+names: ["composite_insulator"]

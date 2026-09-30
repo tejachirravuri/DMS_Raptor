@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# PyInstaller build output
+build/
+dist/
+*.spec.bak
+
+# Model weights (provide your own at runtime)
+models/
+*.pt
+*.onnx
+*.engine
+
+# Experiment / app outputs
+runs/
+results/
+research_results/
+history/
+*.log
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local env
+.env
+.venv/
+venv/
+environment.yml
